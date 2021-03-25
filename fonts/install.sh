@@ -33,3 +33,6 @@ do
     wget -O "${fonts_dir}/${font}" ${fonts[$font]}
 done
 
+echo "Install JetBrains font..."
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+
